@@ -1,0 +1,12 @@
+{
+  "name": "weighbridge-serial-harness",
+  "version": "1.0.0",
+  "description": "Standalone diagnostic tool for testing weighbridge scale indicators (A12, A15, LP75, Defender 3000, SKR, etc.) over RS232 before wiring them into the Electron weighbridge app.",
+  "main": "serial-harness.js",
+  "scripts": {
+    "start": "node serial-harness.js"
+  },
+  "dependencies": {
+    "serialport": "^12.0.0"
+  }
+}
